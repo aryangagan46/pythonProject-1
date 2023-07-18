@@ -1,5 +1,5 @@
 """Write a Program On Flipkart E-Commerce Web-Application"""
-
+#
 class Flipkart_Ecom():
 
     def __init__(self, username, password, Categories, Groceries, Electronics):
@@ -32,23 +32,28 @@ class Flipkart_Ecom():
             print()
 
     def GroceriesList(self):
-        print()
-        input("Select Category:-->")
-        if Groceries == 1:
-            # print(Groceries.items())
-            for Name, Item in Groceries.items():
-                print(Name, Item)
-            # break
+        while True:
+            Z1 = input("Select Category:-->")
+            if Z1 == '1':
+                for Name, Item in Groceries.items():
+                    print(Name, Item)
+                break
+            else:
+                print("End of the List")
+            print()
 
 
     def ElectronicsList(self):
-        print()
-        input("Select Category:-->")
-        if Electronics == 2:
+        while True:
+            Y1 = input("Select Category:-->")
+            if Y1 == '2':
+                for Name2, Item2 in Electronics.items():
+                    print(Name2, Item2)
+                break
+            else:
+                print("End of the List")
             print()
-        for Name2, Item2 in Electronics.items():
-            print(Name2, Item2)
-        # break
+
 
 """Credentials"""
 username = "Darshan"
@@ -57,8 +62,8 @@ password = "12345"
 Categories = {
     "1).": "Groceries",
     "2).": "Mobiles",
-    # "3).": "Home_Appliance",
-    # "4).": "Books"
+    "3).": "Home_Appliance",
+    "4).": "Books"
 }
 
 Groceries = {
@@ -84,3 +89,37 @@ obj1.Login()
 obj1.Dashboard()
 obj1.GroceriesList()
 obj1.ElectronicsList()
+
+
+
+# # X = {
+# # "Name" : "Darshan",
+# # "Roll" : "12"
+# # }
+# #
+# # y = {
+# # "Name" : "Harshit",
+# # "roll" : "13"
+# # }
+# #
+# # if X == 1 and y == 2:
+# #     for I,J in X.items():
+# #         print(I,J)
+# #         for K,L in Y.items():
+# #             print(K,L)
+# #
+# X = {
+#     "Name": "Darshan",
+#     "Roll": "12"
+# }
+#
+# y = {
+#     "Name": "Harshit",
+#     "Roll": "13"
+# }
+#
+# if True:
+#     for I, J in X.items():
+#         print(I, J)
+#     for K, L in y.items():
+#         print(K, L)
