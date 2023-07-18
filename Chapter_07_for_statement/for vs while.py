@@ -2,18 +2,18 @@
 #hence we are using while
 #until the user enters zero
 
-# total = 0
-#
-# number = int(input('Enter a Number: '))
-#
-# #add numbers until number is zero
-# while number != 0:
-#     total += number     # total = total + number
-#
-#     # take integer input again
-#     number = int(input('Enter a number: '))
-#
-# print('total =', total)
+total = 0
+
+number = int(input('Enter a Number: '))
+
+#add numbers until number is zero
+while number != 0:
+    total += number     # total = total + number
+
+    # take integer input again
+    number = int(input('Enter a number: '))
+
+print('total =', total)
 
 """
 examples of list of students
