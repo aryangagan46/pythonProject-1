@@ -33,8 +33,8 @@ class Flipkart_Ecom():
 
     def GroceriesList(self):
         while True:
-            Z1 = input("Select Category:-->")
-            if Z1 == '1':
+            List = input("Select Category:-->")
+            if List == '1':
                 for Name, Item in Groceries.items():
                     print(Name, Item)
                 break
@@ -45,8 +45,8 @@ class Flipkart_Ecom():
 
     def ElectronicsList(self):
         while True:
-            Y1 = input("Select Category:-->")
-            if Y1 == '2':
+            List2 = input("Select Category:-->")
+            if List2 == '2':
                 for Name2, Item2 in Electronics.items():
                     print(Name2, Item2)
                 break
@@ -92,34 +92,3 @@ obj1.ElectronicsList()
 
 
 
-# # X = {
-# # "Name" : "Darshan",
-# # "Roll" : "12"
-# # }
-# #
-# # y = {
-# # "Name" : "Harshit",
-# # "roll" : "13"
-# # }
-# #
-# # if X == 1 and y == 2:
-# #     for I,J in X.items():
-# #         print(I,J)
-# #         for K,L in Y.items():
-# #             print(K,L)
-# #
-# X = {
-#     "Name": "Darshan",
-#     "Roll": "12"
-# }
-#
-# y = {
-#     "Name": "Harshit",
-#     "Roll": "13"
-# }
-#
-# if True:
-#     for I, J in X.items():
-#         print(I, J)
-#     for K, L in y.items():
-#         print(K, L)
