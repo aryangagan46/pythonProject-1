@@ -1,66 +1,68 @@
-# print("Write a Program to add numbers")
-# def add_two_numbers():
-#     a = 2
-#     b = 3
-#     c = a + b
-#     print("Sum", c)
+
+
+print("Write a Program to add numbers")
+def add_two_numbers():
+    a = 2
+    b = 3
+    c = a + b
+    print("Sum", c)
+
+add_two_numbers()
+
+
+print()
+print("Write a Program to add numbers with parameters")
+def add_two_nnumbers_1(a,b):
+    c = a + b
+    print("sum", c)
+
+add_two_nnumbers_1(2, 5)
+
+print()
+print("Write a Program to add numbers with RETURN Statement")
+def add_two_numbers_2(a,b):
+    c = a + b
+    return c
+
+print()
+print("Write a Program to add numbers with RETURN Statement")
+def add_two_numbers_3(*arg):
+
+    data = arg
+    sum = 0
+    for i in data:
+        sum = sum + i
+    return sum
+result = add_two_numbers_3(3,2,4)
+print(result)
+
+print("Write a Program to add numbers with RETURN Statement")
+def add_two_numbers_3(*arg, **kwargs):
+
+    data = arg
+    data_kw = kwargs
+    sum = 0
+    for i in data:
+        sum1 = sum + i
+        print(sum1)
+
+    for j, k in data_kw.items():
+        print(j, k)
+
+result = add_two_numbers_3(3,2,4,name = 'darshan')
+print(result)
+
+print("Write a Program to add numbers & dictionary Statement")
 #
-# add_two_numbers()
-#
-#
-# print()
-# print("Write a Program to add numbers with parameters")
-# def add_two_nnumbers_1(a,b):
-#     c = a + b
-#     print("sum", c)
-#
-# add_two_nnumbers_1(2, 5)
-#
-# print()
-# print("Write a Program to add numbers with RETURN Statement")
-# def add_two_numbers_2(a,b):
-#     c = a + b
-#     return c
-#
-# print()
-# print("Write a Program to add numbers with RETURN Statement")
-# def add_two_numbers_3(*arg):
-#
-#     data = arg
-#     sum = 0
-#     for i in data:
-#         sum = sum + i
-#     return sum
-# result = add_two_numbers_3(3,2,4)
-# print(result)
-#
-# print("Write a Program to add numbers with RETURN Statement")
-# def add_two_numbers_3(*arg, **kwargs):
-#
-#     data = arg
-#     data_kw = kwargs
-#     sum = 0
-#     for i in data:
-#         sum1 = sum + i
-#         print(sum1)
-#
-#     for j, k in data_kw.items():
-#         print(j, k)
-#
-# result = add_two_numbers_3(3,2,4,name = 'darshan')
-# print(result)
-#
-# print("Write a Program to add numbers & dictionary Statement")
-# #
-# print()
-# def function(*wes, **kwargs):
-#     data = wes
-#     data_kw = kwargs
-#     for i in data:
-#         print(i)
-#     for a, b in data_kw.items():
-#         print(a, b)
-# function(10, 20, [44,45,66,77,88], name = 'darshan')
+print()
+def function(*wes, **kwargs):
+    data = wes
+    data_kw = kwargs
+    for i in data:
+        print(i)
+    for a, b in data_kw.items():
+        print(a, b)
+function(10, 20, [44,45,66,77,88], name = 'darshan')
 
 
 """ Write a program to print the Student list using class"""
