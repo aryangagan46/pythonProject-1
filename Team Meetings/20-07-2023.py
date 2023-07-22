@@ -23,16 +23,32 @@ def add_numbers():
 
 # # print("Write a Program to add numbers with RETURN Statement")
 
-def add_two_numbers(*abc):
+# def add_two_numbers(*abc):
+#
+#     data = abc
+#
+#     sum = 0
+#
+#     for a in data:
+#         sum = sum + a
+#     return sum
+#
+# result = add_two_numbers(3,4,5,6,7,8,9,0,5,4,3,3,2,4,5,6,7,7)
+#
+# print(result)
 
-    data = abc
 
-    sum = 0
+def add_two_numbers_3(*arg, **kwargs):
 
-    for a in data:
-        sum = sum + a
-    return sum
+    data = arg
+    data_kw = kwargs
+    sum1 = 0
+    for i in data:
+        sum1 = sum1 + i
+        print(sum1)
 
-result = add_two_numbers(3,4,5,6,7,8,9,0,5,4,3,3,2,4,5,6,7,7)
+    for j, k in data_kw.items():
+        print(j,k)
 
+result = add_two_numbers_3(3,2,4,name = 'darshan')
 print(result)

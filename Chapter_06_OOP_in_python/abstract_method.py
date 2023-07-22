@@ -28,7 +28,7 @@ example :API design : others can design based on their requirment
 class VRL():
 
     print()
-    print("<<<<<<---Official Webpage: VRL Logistics Limited--->>>>>>" )
+    print("<<<<<<---Parent Webpage: VRL Logistics Limited--->>>>>>" )
     print()
     def __init__(self, RedBus, Abhibus, Paytm):
         self.Red_Bus = RedBus
@@ -50,7 +50,9 @@ class Platforms_Redbus(VRL):
     def OfficialWebVRL(self):
 
         for Key1,values1 in RedBus.items():
-        print("Official Webpage for Redbus is :",)
+            print("Official Webpage for Redbus is :",(Key1,values1))
+
+        print()
 
 class Platforms_Abhibus(VRL):
 
@@ -58,7 +60,10 @@ class Platforms_Abhibus(VRL):
         super().__init__(RedBus, Abhibus, Paytm)
 
     def OfficialWebVRL(self):
-        print("Official Webpage for Abhibus is:", self.Abhi_bus)
+
+        for Key2,value2 in Abhibus.items():
+            print("Official Webpage for Abhibus is:", (Key2,value2))
+        print()
 
 class Platforms_Paytm(VRL):
 
@@ -66,7 +71,9 @@ class Platforms_Paytm(VRL):
         super().__init__(RedBus, Abhibus, Paytm)
 
     def OfficialWebVRL(self):
-        print("Official Webpage for Paytm is :", self.Paytm_Bus)
+
+        for Key3,value3 in Paytm.items():
+            print("Official Webpage for Paytm is :",(Key3, value3))
 
 RedBus = {
 "Route No 01" : "Bangalore to Hubli",

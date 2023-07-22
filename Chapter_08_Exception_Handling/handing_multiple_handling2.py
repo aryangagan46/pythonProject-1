@@ -25,3 +25,10 @@ finally:
     print(even_numbers)
     print()
     print("program ran successfullyyyyyyyyy")
+
+
+try
+
+    "input"
+    Vehicals = "Bike : 20","Car : 10", "Bus : 5", "SUV : 2"
+
