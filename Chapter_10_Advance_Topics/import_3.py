@@ -1,8 +1,8 @@
-#
-# from Chapter_10_Advance_Topics.modules.module_1 import TestClass1
-#
-# object1 = TestClass1()
-# object1.test_method1()
+
+from Chapter_10_Advance_Topics.modules.module_1 import TestClass1
+
+object1 = TestClass1()
+object1.test_method1()
 
 from Chapter_06_OOP_in_python.Oop_inheritance_polymorphism import Other_Bank_Details
 
