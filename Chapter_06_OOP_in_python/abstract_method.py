@@ -2,7 +2,7 @@
 abstract base class
 example :API design : others can design based on their requirment
 """
-
+#
 # from abc import ABC , abstractmethod
 #
 # class VRL(ABC):

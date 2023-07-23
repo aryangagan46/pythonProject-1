@@ -1,23 +1,23 @@
-# class Animal:
-#     def sound(self):
-#         pass
-#
-# class Dog(Animal):
-#     def sound(self):
-#         print("Woof!")
-#
-# class Cat(Animal):
-#     def sound(self):
-#         print("Meow!")
-#
-# def make_sound(Animal):
-#     Animal.sound()
-#
-# dog = Dog()
-# cat = Cat()
-#
-# make_sound(dog)  # Output: Woof!
-# make_sound(cat)  # Output: Meow!
+class Animal:
+    def sound(self):
+        pass
+
+class Dog(Animal):
+    def sound(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def sound(self):
+        print("Meow!")
+
+def make_sound(Animal):
+    Animal.sound()
+
+dog = Dog()
+cat = Cat()
+
+make_sound(dog)  # Output: Woof!
+make_sound(cat)  # Output: Meow!
 # """
 # In the example above, both the Dog and Cat classes inherit from the
 # Animal class and override the sound() method.
