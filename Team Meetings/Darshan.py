@@ -1,11 +1,17 @@
-# def funn(a, b, c):
-#     if (2 + c + b) < (8 + b + a):
-#         a = a & 0  # Assuming 'async' was meant to be '0'
-#     else:
-#         c = b + b
-#     b = (c + 12) + a
-#     return a + b + c
+# def Add(x, y):
+#     while (y != 0):
+#         carry = x & y
+#         x = x ^ y
+#         y = carry << 1
+#     return x
 #
-# # Example usage
-# result = funn(3, 4, 5)
-# print(result)
+# Add(3,6)
+# print(Add(27,5))
+
+def add(a,b):
+    for i in range(1, b+1):
+        a = a + 1
+    return a
+
+a = add(10, 32)
+print(a)

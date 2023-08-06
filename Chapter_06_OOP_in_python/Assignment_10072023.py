@@ -1,4 +1,3 @@
-\
 
 class Washingmachine():                                         #Parent Class
 

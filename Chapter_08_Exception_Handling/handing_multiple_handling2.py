@@ -4,7 +4,7 @@ try:
     even_numbers = [2, 4, 6, 8]
 
     """print the index value"""
-    print(even_numbers[2])
+    print(even_numbers[5])
 
     "change the denominator value"
     result = even_numbers[2] / 0
@@ -25,10 +25,4 @@ finally:
     print(even_numbers)
     print()
     print("program ran successfullyyyyyyyyy")
-
-
-try
-
-    "input"
-    Vehicals = "Bike : 20","Car : 10", "Bus : 5", "SUV : 2"
 

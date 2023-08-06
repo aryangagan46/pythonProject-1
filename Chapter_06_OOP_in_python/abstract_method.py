@@ -2,28 +2,28 @@
 abstract base class
 example :API design : others can design based on their requirment
 """
-#
-# from abc import ABC , abstractmethod
-#
-# class VRL(ABC):
-#     @abstractmethod
-#     def Bus_details(self):
-#         pass
-#
-# class Abhibus(VRL):
-#     def Bus_details(self):
-#         print("Welcome to VRL Logistics Ltd : by Abhibus")
-#
-# class RedBus(VRL):
-#     def Bus_details(self):
-#         print("Welcome to VRL Logistics Ltd : by Redbus")
-#
-# A = Abhibus()
-# A.Bus_details()
-# R = RedBus()
-# R.Bus_details()
-#
-# print("******************************************************")
+
+from abc import ABC , abstractmethod
+
+class VRL(ABC):
+    @abstractmethod
+    def Bus_details(self):
+        pass
+
+class Abhibus(VRL): 
+    def Bus_details(self):
+        print("Welcome to VRL Logistics Ltd : by Abhibus")
+
+class RedBus(VRL):
+    def Bus_details(self):
+        print("Welcome to VRL Logistics Ltd : by Redbus")
+
+A = Abhibus()
+A.Bus_details()
+R = RedBus()
+R.Bus_details()
+
+print("******************************************************")
 
 class VRL():
 
