@@ -60,7 +60,7 @@ time.sleep(2)
 search_element4 = driver.find_element(By.XPATH,"//button[@id='login']")
 search_element4.click()
 time.sleep(4)
-ffgmhjxydudd
+
 search_element5 = driver.find_element(By.XPATH,"//i[@title='Add New']")
 search_element5.click()
 time.sleep(2)

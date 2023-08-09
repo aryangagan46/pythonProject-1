@@ -217,7 +217,7 @@ print(clean_text)
 # Replaces occurrences of a specified substring with another substring.
 print('replace:')
 text = "Hello, World!"
-new_text = text.replace("World", "Python")
+new_text = text.replace("World", "Python  Program")
 print(new_text)
 
 print('************************************************************')

@@ -7,9 +7,9 @@ driver.get("https://www.makemytrip.com/")
 driver.maximize_window()
 time.sleep(10)
 
-s = driver.find_element(By.XPATH,"//div[contains(@class,'flexOne')]")
-if "Super Offers" in s.text:
-    s.click()
+S = driver.find_element(By.XPATH,"//div[contains(@class,'flexOne')]")
+if "Super Offers" in S.text:
+    S.click()
 
 print(driver.current_url)
 
@@ -17,7 +17,7 @@ main_window = driver.current_window_handle
 
 print(main_window)
 time.sleep(5)
-window_list = driver.window_handles
+windows_list = driver.window_handles
 print(windows_list)
 
 for window in windows_list:

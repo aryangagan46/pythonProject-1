@@ -19,3 +19,5 @@ time.sleep(3)
 LOGIN3 = driver.find_element(By.XPATH,"//input[@tabindex='7']")
 LOGIN3.click()
 time.sleep(3)
+
+print("OTP Was sent to Registered Number Successfully")
