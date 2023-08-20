@@ -32,7 +32,7 @@ logger.debug("Addition result of num1 {} and num2 {} is = {}".format(num1,num2,a
 Logger
 
 1). Get Logger
-2) Set Logger
+2). Set Logger
 3). Add File Handler
 
     Create a File
